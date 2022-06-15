@@ -8,10 +8,22 @@ def decode_char(char)
   decoder[char]
 end
 
+# puts decode_char('.-')
+
 def decode_word(word_code)
   word_code.split.map do |char|
     decode_char(char)
   end.join
 end
 
-puts decode_char('.-')
+# puts decode_char('.-')
+
+
+def decode(morse_code)
+    morse_code.split("   ").map do |word_code|
+        decode_word(word_code)
+    end.join(" ")
+end
+
+# puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+
