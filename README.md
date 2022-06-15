@@ -19,15 +19,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Laptop or Desktop
-- Web Browser
-- IDE
-- Ruby 
-- Programming Knowledge
+- A text editor(preferably Visual Studio Code)
 
-### Setup
+### Install
 
-- Clone GitHub repository `gh repo clone aboongm/decode-morse-code`
+- Ruby
+
+### Using it Locally
+
+- Clone the project
+
+git clone https://github.com/aboongm/decode-morse-code
+
+cd decode-morse-code
+
+- To Start the programs
+
+open terminal
+run the command $irb (interactive ruby shell)
+run the program functions
 
 
 ## Authors
