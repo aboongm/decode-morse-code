@@ -8,4 +8,10 @@ def decode_char(char)
   decoder[char]
 end
 
+def decode_word(word_code)
+  word_code.split.map do |char|
+    decode_char(char)
+  end.join
+end
+
 puts decode_char('.-')
